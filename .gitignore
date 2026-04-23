@@ -1,0 +1,30 @@
+# Environment files (contain credentials)
+.env.*
+
+# Auth session state (contains sensitive tokens)
+test_data/auth_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+venv/
+.venv/
+
+# Pytest
+.pytest_cache/
+reports/
+
+# Playwright
+test-results/
+playwright-report/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
